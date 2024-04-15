@@ -1,0 +1,25 @@
+apiVersion: v1
+entries:
+  amorphie:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-04-15T15:20:34.2387412+03:00"
+    dependencies:
+    - condition: amorphie-apps.enabled
+      name: amorphie-apps
+      repository: ""
+    - condition: amorphie-third-party.enabled
+      name: amorphie-third-party
+      repository: ""
+    description: A Helm chart for Kubernetes
+    digest: 06c22604a1a089b322abe9b04dd09e3f64a52075935546d1bffa4cbb803247b4
+    icon: https://www.burgan.com.tr/assets/img/BurganBank_Logo.png
+    maintainers:
+    - email: devopsgelistirme@burgan.com.tr
+      name: Burgan Bank DevOps Gelistirme
+    name: amorphie
+    type: application
+    urls:
+    - amorphie-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-04-15T15:20:34.192797+03:00"
