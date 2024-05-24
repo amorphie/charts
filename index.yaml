@@ -3,7 +3,7 @@ entries:
   amorphie:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-05-24T17:37:08.7974946+03:00"
+    created: "2024-05-24T17:45:45.8169868+03:00"
     dependencies:
     - condition: amorphie-apps.enabled
       name: amorphie-apps
@@ -20,11 +20,11 @@ entries:
     name: amorphie
     type: application
     urls:
-    - amorphie-0.1.1.tgz
+    - https://amorphie.github.io/charts/amorphie-0.1.1.tgz
     version: 0.1.1
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-05-24T17:37:08.673579+03:00"
+    created: "2024-05-24T17:45:45.7749491+03:00"
     dependencies:
     - condition: amorphie-apps.enabled
       name: amorphie-apps
@@ -41,6 +41,6 @@ entries:
     name: amorphie
     type: application
     urls:
-    - amorphie-0.1.0.tgz
+    - https://amorphie.github.io/charts/amorphie-0.1.0.tgz
     version: 0.1.0
-generated: "2024-05-24T17:37:08.6280699+03:00"
+generated: "2024-05-24T17:45:45.7294383+03:00"
